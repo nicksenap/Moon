@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C0D62A29FD0C7A00B4FD53 /* MoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D62929FD0C7A00B4FD53 /* MoonApp.swift */; };
+		39C0D62C29FD0C7A00B4FD53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D62B29FD0C7A00B4FD53 /* ContentView.swift */; };
+		39C0D62E29FD0C7B00B4FD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C0D62D29FD0C7B00B4FD53 /* Assets.xcassets */; };
+		39C0D63129FD0C7B00B4FD53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C0D63029FD0C7B00B4FD53 /* Preview Assets.xcassets */; };
+		39C0D63B29FD0C7B00B4FD53 /* MoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D63A29FD0C7B00B4FD53 /* MoonTests.swift */; };
+		39C0D64529FD0C7B00B4FD53 /* MoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D64429FD0C7B00B4FD53 /* MoonUITests.swift */; };
+		39C0D64729FD0C7B00B4FD53 /* MoonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D64629FD0C7B00B4FD53 /* MoonUITestsLaunchTests.swift */; };
+		39C0D64D29FD0C7B00B4FD53 /* Moon Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 39C0D64C29FD0C7B00B4FD53 /* Moon Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		39C0D65229FD0C7B00B4FD53 /* MoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D65129FD0C7B00B4FD53 /* MoonApp.swift */; };
+		39C0D65429FD0C7B00B4FD53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D65329FD0C7B00B4FD53 /* ContentView.swift */; };
+		39C0D65629FD0C7C00B4FD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C0D65529FD0C7C00B4FD53 /* Assets.xcassets */; };
+		39C0D65929FD0C7C00B4FD53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C0D65829FD0C7C00B4FD53 /* Preview Assets.xcassets */; };
+		39C0D66329FD0C7C00B4FD53 /* Moon_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D66229FD0C7C00B4FD53 /* Moon_Watch_AppTests.swift */; };
+		39C0D66D29FD0C7C00B4FD53 /* Moon_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D66C29FD0C7C00B4FD53 /* Moon_Watch_AppUITests.swift */; };
+		39C0D66F29FD0C7C00B4FD53 /* Moon_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C0D66E29FD0C7C00B4FD53 /* Moon_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C0D63729FD0C7B00B4FD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C0D61E29FD0C7A00B4FD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C0D62529FD0C7A00B4FD53;
+			remoteInfo = Moon;
+		};
+		39C0D64129FD0C7B00B4FD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C0D61E29FD0C7A00B4FD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C0D62529FD0C7A00B4FD53;
+			remoteInfo = Moon;
+		};
+		39C0D64E29FD0C7B00B4FD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C0D61E29FD0C7A00B4FD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C0D64B29FD0C7B00B4FD53;
+			remoteInfo = "Moon Watch App";
+		};
+		39C0D65F29FD0C7C00B4FD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C0D61E29FD0C7A00B4FD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C0D64B29FD0C7B00B4FD53;
+			remoteInfo = "Moon Watch App";
+		};
+		39C0D66929FD0C7C00B4FD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C0D61E29FD0C7A00B4FD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C0D64B29FD0C7B00B4FD53;
+			remoteInfo = "Moon Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39C0D67529FD0C7C00B4FD53 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				39C0D64D29FD0C7B00B4FD53 /* Moon Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39C0D62629FD0C7A00B4FD53 /* Moon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C0D62929FD0C7A00B4FD53 /* MoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonApp.swift; sourceTree = "<group>"; };
+		39C0D62B29FD0C7A00B4FD53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39C0D62D29FD0C7B00B4FD53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39C0D63029FD0C7B00B4FD53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39C0D63629FD0C7B00B4FD53 /* MoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C0D63A29FD0C7B00B4FD53 /* MoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonTests.swift; sourceTree = "<group>"; };
+		39C0D64029FD0C7B00B4FD53 /* MoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C0D64429FD0C7B00B4FD53 /* MoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonUITests.swift; sourceTree = "<group>"; };
+		39C0D64629FD0C7B00B4FD53 /* MoonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39C0D64C29FD0C7B00B4FD53 /* Moon Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moon Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C0D65129FD0C7B00B4FD53 /* MoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonApp.swift; sourceTree = "<group>"; };
+		39C0D65329FD0C7B00B4FD53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39C0D65529FD0C7C00B4FD53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39C0D65829FD0C7C00B4FD53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39C0D65E29FD0C7C00B4FD53 /* Moon Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moon Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C0D66229FD0C7C00B4FD53 /* Moon_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon_Watch_AppTests.swift; sourceTree = "<group>"; };
+		39C0D66829FD0C7C00B4FD53 /* Moon Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moon Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C0D66C29FD0C7C00B4FD53 /* Moon_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		39C0D66E29FD0C7C00B4FD53 /* Moon_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C0D62329FD0C7A00B4FD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D63329FD0C7B00B4FD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D63D29FD0C7B00B4FD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D64929FD0C7B00B4FD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D65B29FD0C7C00B4FD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D66529FD0C7C00B4FD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C0D61D29FD0C7A00B4FD53 = {
+			isa = PBXGroup;
+			children = (
+				39C0D62829FD0C7A00B4FD53 /* Moon */,
+				39C0D63929FD0C7B00B4FD53 /* MoonTests */,
+				39C0D64329FD0C7B00B4FD53 /* MoonUITests */,
+				39C0D65029FD0C7B00B4FD53 /* Moon Watch App */,
+				39C0D66129FD0C7C00B4FD53 /* Moon Watch AppTests */,
+				39C0D66B29FD0C7C00B4FD53 /* Moon Watch AppUITests */,
+				39C0D62729FD0C7A00B4FD53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C0D62729FD0C7A00B4FD53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D62629FD0C7A00B4FD53 /* Moon.app */,
+				39C0D63629FD0C7B00B4FD53 /* MoonTests.xctest */,
+				39C0D64029FD0C7B00B4FD53 /* MoonUITests.xctest */,
+				39C0D64C29FD0C7B00B4FD53 /* Moon Watch App.app */,
+				39C0D65E29FD0C7C00B4FD53 /* Moon Watch AppTests.xctest */,
+				39C0D66829FD0C7C00B4FD53 /* Moon Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C0D62829FD0C7A00B4FD53 /* Moon */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D62929FD0C7A00B4FD53 /* MoonApp.swift */,
+				39C0D62B29FD0C7A00B4FD53 /* ContentView.swift */,
+				39C0D62D29FD0C7B00B4FD53 /* Assets.xcassets */,
+				39C0D62F29FD0C7B00B4FD53 /* Preview Content */,
+			);
+			path = Moon;
+			sourceTree = "<group>";
+		};
+		39C0D62F29FD0C7B00B4FD53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D63029FD0C7B00B4FD53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39C0D63929FD0C7B00B4FD53 /* MoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D63A29FD0C7B00B4FD53 /* MoonTests.swift */,
+			);
+			path = MoonTests;
+			sourceTree = "<group>";
+		};
+		39C0D64329FD0C7B00B4FD53 /* MoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D64429FD0C7B00B4FD53 /* MoonUITests.swift */,
+				39C0D64629FD0C7B00B4FD53 /* MoonUITestsLaunchTests.swift */,
+			);
+			path = MoonUITests;
+			sourceTree = "<group>";
+		};
+		39C0D65029FD0C7B00B4FD53 /* Moon Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D65129FD0C7B00B4FD53 /* MoonApp.swift */,
+				39C0D65329FD0C7B00B4FD53 /* ContentView.swift */,
+				39C0D65529FD0C7C00B4FD53 /* Assets.xcassets */,
+				39C0D65729FD0C7C00B4FD53 /* Preview Content */,
+			);
+			path = "Moon Watch App";
+			sourceTree = "<group>";
+		};
+		39C0D65729FD0C7C00B4FD53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D65829FD0C7C00B4FD53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39C0D66129FD0C7C00B4FD53 /* Moon Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D66229FD0C7C00B4FD53 /* Moon_Watch_AppTests.swift */,
+			);
+			path = "Moon Watch AppTests";
+			sourceTree = "<group>";
+		};
+		39C0D66B29FD0C7C00B4FD53 /* Moon Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39C0D66C29FD0C7C00B4FD53 /* Moon_Watch_AppUITests.swift */,
+				39C0D66E29FD0C7C00B4FD53 /* Moon_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Moon Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C0D62529FD0C7A00B4FD53 /* Moon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C0D67629FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon" */;
+			buildPhases = (
+				39C0D62229FD0C7A00B4FD53 /* Sources */,
+				39C0D62329FD0C7A00B4FD53 /* Frameworks */,
+				39C0D62429FD0C7A00B4FD53 /* Resources */,
+				39C0D67529FD0C7C00B4FD53 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C0D64F29FD0C7B00B4FD53 /* PBXTargetDependency */,
+			);
+			name = Moon;
+			productName = Moon;
+			productReference = 39C0D62629FD0C7A00B4FD53 /* Moon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C0D63529FD0C7B00B4FD53 /* MoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C0D67929FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "MoonTests" */;
+			buildPhases = (
+				39C0D63229FD0C7B00B4FD53 /* Sources */,
+				39C0D63329FD0C7B00B4FD53 /* Frameworks */,
+				39C0D63429FD0C7B00B4FD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C0D63829FD0C7B00B4FD53 /* PBXTargetDependency */,
+			);
+			name = MoonTests;
+			productName = MoonTests;
+			productReference = 39C0D63629FD0C7B00B4FD53 /* MoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39C0D63F29FD0C7B00B4FD53 /* MoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C0D67C29FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "MoonUITests" */;
+			buildPhases = (
+				39C0D63C29FD0C7B00B4FD53 /* Sources */,
+				39C0D63D29FD0C7B00B4FD53 /* Frameworks */,
+				39C0D63E29FD0C7B00B4FD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C0D64229FD0C7B00B4FD53 /* PBXTargetDependency */,
+			);
+			name = MoonUITests;
+			productName = MoonUITests;
+			productReference = 39C0D64029FD0C7B00B4FD53 /* MoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		39C0D64B29FD0C7B00B4FD53 /* Moon Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C0D67229FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon Watch App" */;
+			buildPhases = (
+				39C0D64829FD0C7B00B4FD53 /* Sources */,
+				39C0D64929FD0C7B00B4FD53 /* Frameworks */,
+				39C0D64A29FD0C7B00B4FD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moon Watch App";
+			productName = "Moon Watch App";
+			productReference = 39C0D64C29FD0C7B00B4FD53 /* Moon Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C0D65D29FD0C7C00B4FD53 /* Moon Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C0D67F29FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon Watch AppTests" */;
+			buildPhases = (
+				39C0D65A29FD0C7C00B4FD53 /* Sources */,
+				39C0D65B29FD0C7C00B4FD53 /* Frameworks */,
+				39C0D65C29FD0C7C00B4FD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C0D66029FD0C7C00B4FD53 /* PBXTargetDependency */,
+			);
+			name = "Moon Watch AppTests";
+			productName = "Moon Watch AppTests";
+			productReference = 39C0D65E29FD0C7C00B4FD53 /* Moon Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39C0D66729FD0C7C00B4FD53 /* Moon Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C0D68229FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon Watch AppUITests" */;
+			buildPhases = (
+				39C0D66429FD0C7C00B4FD53 /* Sources */,
+				39C0D66529FD0C7C00B4FD53 /* Frameworks */,
+				39C0D66629FD0C7C00B4FD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C0D66A29FD0C7C00B4FD53 /* PBXTargetDependency */,
+			);
+			name = "Moon Watch AppUITests";
+			productName = "Moon Watch AppUITests";
+			productReference = 39C0D66829FD0C7C00B4FD53 /* Moon Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C0D61E29FD0C7A00B4FD53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					39C0D62529FD0C7A00B4FD53 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					39C0D63529FD0C7B00B4FD53 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 39C0D62529FD0C7A00B4FD53;
+					};
+					39C0D63F29FD0C7B00B4FD53 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 39C0D62529FD0C7A00B4FD53;
+					};
+					39C0D64B29FD0C7B00B4FD53 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					39C0D65D29FD0C7C00B4FD53 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 39C0D64B29FD0C7B00B4FD53;
+					};
+					39C0D66729FD0C7C00B4FD53 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 39C0D64B29FD0C7B00B4FD53;
+					};
+				};
+			};
+			buildConfigurationList = 39C0D62129FD0C7A00B4FD53 /* Build configuration list for PBXProject "Moon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C0D61D29FD0C7A00B4FD53;
+			productRefGroup = 39C0D62729FD0C7A00B4FD53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C0D62529FD0C7A00B4FD53 /* Moon */,
+				39C0D63529FD0C7B00B4FD53 /* MoonTests */,
+				39C0D63F29FD0C7B00B4FD53 /* MoonUITests */,
+				39C0D64B29FD0C7B00B4FD53 /* Moon Watch App */,
+				39C0D65D29FD0C7C00B4FD53 /* Moon Watch AppTests */,
+				39C0D66729FD0C7C00B4FD53 /* Moon Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C0D62429FD0C7A00B4FD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D63129FD0C7B00B4FD53 /* Preview Assets.xcassets in Resources */,
+				39C0D62E29FD0C7B00B4FD53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D63429FD0C7B00B4FD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D63E29FD0C7B00B4FD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D64A29FD0C7B00B4FD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D65929FD0C7C00B4FD53 /* Preview Assets.xcassets in Resources */,
+				39C0D65629FD0C7C00B4FD53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D65C29FD0C7C00B4FD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D66629FD0C7C00B4FD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C0D62229FD0C7A00B4FD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D62C29FD0C7A00B4FD53 /* ContentView.swift in Sources */,
+				39C0D62A29FD0C7A00B4FD53 /* MoonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D63229FD0C7B00B4FD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D63B29FD0C7B00B4FD53 /* MoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D63C29FD0C7B00B4FD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D64529FD0C7B00B4FD53 /* MoonUITests.swift in Sources */,
+				39C0D64729FD0C7B00B4FD53 /* MoonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D64829FD0C7B00B4FD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D65429FD0C7B00B4FD53 /* ContentView.swift in Sources */,
+				39C0D65229FD0C7B00B4FD53 /* MoonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D65A29FD0C7C00B4FD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D66329FD0C7C00B4FD53 /* Moon_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C0D66429FD0C7C00B4FD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C0D66D29FD0C7C00B4FD53 /* Moon_Watch_AppUITests.swift in Sources */,
+				39C0D66F29FD0C7C00B4FD53 /* Moon_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C0D63829FD0C7B00B4FD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C0D62529FD0C7A00B4FD53 /* Moon */;
+			targetProxy = 39C0D63729FD0C7B00B4FD53 /* PBXContainerItemProxy */;
+		};
+		39C0D64229FD0C7B00B4FD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C0D62529FD0C7A00B4FD53 /* Moon */;
+			targetProxy = 39C0D64129FD0C7B00B4FD53 /* PBXContainerItemProxy */;
+		};
+		39C0D64F29FD0C7B00B4FD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C0D64B29FD0C7B00B4FD53 /* Moon Watch App */;
+			targetProxy = 39C0D64E29FD0C7B00B4FD53 /* PBXContainerItemProxy */;
+		};
+		39C0D66029FD0C7C00B4FD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C0D64B29FD0C7B00B4FD53 /* Moon Watch App */;
+			targetProxy = 39C0D65F29FD0C7C00B4FD53 /* PBXContainerItemProxy */;
+		};
+		39C0D66A29FD0C7C00B4FD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C0D64B29FD0C7B00B4FD53 /* Moon Watch App */;
+			targetProxy = 39C0D66929FD0C7C00B4FD53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39C0D67029FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39C0D67129FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		39C0D67329FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moon Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Moon;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nicksenp.Moon;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.Moon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		39C0D67429FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moon Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Moon;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nicksenp.Moon;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.Moon.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		39C0D67729FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moon/Preview Content\"";
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Moon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.Moon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C0D67829FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moon/Preview Content\"";
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Moon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.Moon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C0D67A29FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.MoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moon";
+			};
+			name = Debug;
+		};
+		39C0D67B29FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.MoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moon";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C0D67D29FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.MoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moon;
+			};
+			name = Debug;
+		};
+		39C0D67E29FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicksenp.MoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moon;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C0D68029FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicksenp.Moon-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moon Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moon Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		39C0D68129FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicksenp.Moon-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moon Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moon Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		39C0D68329FD0C7C00B4FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicksenp.Moon-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Moon Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		39C0D68429FD0C7C00B4FD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBNTL3P4RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicksenp.Moon-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Moon Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C0D62129FD0C7A00B4FD53 /* Build configuration list for PBXProject "Moon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D67029FD0C7C00B4FD53 /* Debug */,
+				39C0D67129FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C0D67229FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D67329FD0C7C00B4FD53 /* Debug */,
+				39C0D67429FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C0D67629FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D67729FD0C7C00B4FD53 /* Debug */,
+				39C0D67829FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C0D67929FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "MoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D67A29FD0C7C00B4FD53 /* Debug */,
+				39C0D67B29FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C0D67C29FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "MoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D67D29FD0C7C00B4FD53 /* Debug */,
+				39C0D67E29FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C0D67F29FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D68029FD0C7C00B4FD53 /* Debug */,
+				39C0D68129FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C0D68229FD0C7C00B4FD53 /* Build configuration list for PBXNativeTarget "Moon Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C0D68329FD0C7C00B4FD53 /* Debug */,
+				39C0D68429FD0C7C00B4FD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C0D61E29FD0C7A00B4FD53 /* Project object */;
+}
