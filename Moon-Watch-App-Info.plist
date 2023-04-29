@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HKQuantityTypeIdentifierHeartRate</key>
+	<string>This app requires access to your heart rate data to detect when you fall asleep and pause media playback on your phone.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We use your health data, including heart rate and motion data, to accurately detect when you fall asleep and pause any ongoing media playback on your iPhone. Your health data will only be used for this purpose and will not be shared with third parties.</string>
+</dict>
+</plist>

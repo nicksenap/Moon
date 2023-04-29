@@ -97,6 +97,8 @@
 		39C0D66829FD0C7C00B4FD53 /* Moon Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moon Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C0D66C29FD0C7C00B4FD53 /* Moon_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		39C0D66E29FD0C7C00B4FD53 /* Moon_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39C0D68729FD121100B4FD53 /* Moon-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Moon-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		39C0D68829FD132F00B4FD53 /* Moon Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Moon Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,8 @@
 		39C0D65029FD0C7B00B4FD53 /* Moon Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				39C0D68829FD132F00B4FD53 /* Moon Watch App.entitlements */,
+				39C0D68729FD121100B4FD53 /* Moon-Watch-App-Info.plist */,
 				39C0D65129FD0C7B00B4FD53 /* MoonApp.swift */,
 				39C0D65329FD0C7B00B4FD53 /* ContentView.swift */,
 				39C0D65529FD0C7C00B4FD53 /* Assets.xcassets */,
@@ -658,12 +662,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Moon Watch App/Moon Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Moon Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = WBNTL3P4RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moon-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Moon;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nicksenp.Moon;
@@ -688,12 +694,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Moon Watch App/Moon Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Moon Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = WBNTL3P4RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moon-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Moon;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nicksenp.Moon;
